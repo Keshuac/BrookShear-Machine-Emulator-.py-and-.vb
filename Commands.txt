@@ -1,0 +1,24 @@
+	Brookshear machine instructions
+
+   	1RXY		Load register R with the value at memory address XY
+
+   	2RXY		Load register R with the value XY
+
+   	3RXY		Store the value in register R at memory address XY
+
+   	40RS		Copy/move the value in register R to register S
+
+	5RST		Add the values in registers R and S and put the answer in register T
+
+   	7RST		Bit-wise OR the values in registers R and S and put the answer in 				register T
+
+   	8RST		Bit-wise AND the values in registers R and S and put the answer in 				register T
+
+	9RST		Bit-wise XOR the values in registers R and S and put the answer in 				register T
+
+	AR0X		Rotate the contents of register R   X times to the right
+
+	BRXY		Jump to the instruction located at memory address XY if the value in 				register R is equal to the value in register 0 (i.e. change the PC to XY)
+
+	C000		Halt
+
